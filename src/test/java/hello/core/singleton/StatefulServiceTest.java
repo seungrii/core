@@ -37,6 +37,7 @@ class StatefulServiceTest {
         @Bean
         public StatefulService statefulService() {
             return new StatefulService();
+            //
         }
     }
 }
